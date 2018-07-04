@@ -1,2 +1,7 @@
-Here the GOOGLE Natural Language API is implemented
+In this program the Natural Language Google API is used  -- cloud.google.com/natural-language
+
+The user has to choose any one of the 3 movies given. 
+For each movie 3 reviews are given by IMDb which are there in the csv file given in csv format.
+For the given input by the user, the natural language api will use entity sentiment analysis.
+After the analysis is complete.. the score of the analysis will be displayed and the movie's ratings will be displayed as the output'
 
