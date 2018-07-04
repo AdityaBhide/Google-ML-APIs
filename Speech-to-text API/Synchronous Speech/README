@@ -1,0 +1,6 @@
+This is the GOOGLE ML Speech-to-text API 
+
+Using this api you can easily convert your audio speech to text 
+the output will be printed on the screen
+Imp Note : Your audio file must be in .flac format and not .mp3
+           you can easily convert your audio to .flac by using this link --- https://audio.online-convert.com/convert-to-flac
