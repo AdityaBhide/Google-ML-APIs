@@ -1,0 +1,5 @@
+This is a fun program that uses combination of translation, Speech-to-text APIs and the class EMAIL
+
+Similar to the translation API, the transcript is translated into 4 different languages.
+Then 4 files are created and the translated text into the 4 languages gets written into the respective 4 files created.
+Now by using the EMAIL class, the 4 files are attached and sent via email to the target email id.
