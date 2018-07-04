@@ -1,6 +1,5 @@
 import os
 import io
-# Imports the Google Cloud client library
 from google.cloud import translate
 import smtplib
 import ssl
@@ -32,7 +31,7 @@ def translate_into(input_text):
 
     # The text to translate
     text = input_text
-    # The target language
+    # You can change the languages here if you want.
     languages = ['fr', 'es', 'ru', 'hi']
     for language in languages:
         target = language
