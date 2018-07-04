@@ -1,3 +1,8 @@
+#This uses the DOG API to generate the url links of random dog images and download them
+#Then the respective dog images are analysed by making a request to the google Vision API
+#The Google Vision API does Label Detection on the respective images 
+#The label detection tells us everything about the dog i.e the breed..etc...
+
 import io
 import os
 from google.cloud import vision
