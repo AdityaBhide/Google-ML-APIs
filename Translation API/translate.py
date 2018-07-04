@@ -1,3 +1,9 @@
+#this is the example of translation api as well as it uses the speech to text api
+#The transcribed text from the speech is translated into the 4 languages 
+#the 4 languages are -- [french, spanish, russian, hindi]
+#if you want you can even change the target languages below
+
+
 import os
 import io
 # Imports the Google Cloud client library
@@ -43,7 +49,7 @@ def transcribe_file(speech_file):
         print(u'Transcript: {}'.format(result.alternatives[0].transcript), '\n')
 
     re = response.results[0].alternatives[0].transcript
-
+    #You can change the languages here.
     languages = ['fr', 'es', 'ru', 'hi']
 
     for language in languages:
