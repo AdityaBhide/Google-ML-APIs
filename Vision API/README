@@ -6,6 +6,9 @@ The first code is the DOGAPI.py :
   It also downloads the images and stores them in the respective directories.
   
 The second code is the DOGVISION.py :
+  First you will need an Google API key which you can get on -- cloud.google.com/vision
+  Then you will need to set the credentials using the key which is in json format.
+  The procedure for setting the credentials is there on -- cloud.google.com/vision/docs
   This is the actual program that uses the Google ML Vision API.
   It uses the above DopAPI and the requests the google vision api to analyze the downloaded dog images.
   The vision api uses label detection and gives us the info about the dog i.e it tells us about the type..breed..color.. etc.
