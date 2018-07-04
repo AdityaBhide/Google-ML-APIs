@@ -1,2 +1,6 @@
 Google Translation API
 
+In this folder you will find an audio file in flac format --- "chicago.flac" which is a short speech about chicago
+This program will use the speech to text api to transcribe the speech into text.
+Then using the Google Translation API, it will translate the speech text into the given languages.\
+You can change the languages if you want.
