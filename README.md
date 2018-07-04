@@ -1,9 +1,8 @@
 # Google-ML-APIs
 The Google ML APIs used are :
-Vision
-Natural Language
-Speech to text
-Translation
+Vision,
+Natural Language,
+Speech to text,
+Translation.
 
-
-Here are some of the examples of the google ML APIs 
+Here are some examples of the google ML APIs 
