@@ -2,7 +2,7 @@
 #Then the respective dog images are analysed by making a request to the google Vision API
 #The Google Vision API does Label Detection on the respective images 
 #The label detection tells us everything about the dog i.e the breed..etc...
-
+#But you will need an API key. which you can get on ------- cloud.google.com/vision
 import io
 import os
 from google.cloud import vision
