@@ -1,3 +1,7 @@
+#This program generates random dog images 
+#It creates the url links to the dog images
+#It also downloads the images and stores them in the respective directories
+
 n=int(input("Input the number of dog images you want: "))
 print("the number of dog images you want is: ", n)
 import requests
@@ -12,16 +16,4 @@ for y in range(n):
     file="dog"+str(y)+".jpg"
     with open(file,"wb") as img:
         img.write(r.content)
-        
-        
-
        
-    
-    
-    
-    
-    
-
-
-    
-
