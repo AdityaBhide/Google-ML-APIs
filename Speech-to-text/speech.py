@@ -1,11 +1,16 @@
+#In this program you have to input an audio speech file and the api will transcribe the speech to text 
+#The output will be printed in text
+#IMPORTANT : You will have to convert your .p3 file into .flac 
+#You can use this link for conversion of .mp3 to .flac --- "ttps://audio.online-convert.com/convert-to-flac"
+
 import os
 import io
+from google.cloud import speech
+from google.cloud.speech import enums
+from google.cloud.speech import types
 
 def transcribe_file(speech_file):
     """Transcribe the given audio file."""
-    from google.cloud import speech
-    from google.cloud.speech import enums
-    from google.cloud.speech import types
     client = speech.SpeechClient()
 
     with io.open(speech_file , 'rb') as audio_file:
@@ -28,5 +33,5 @@ def transcribe_file(speech_file):
     print(re)
     
 
-
-transcribe_file('chicago.flac')
+#here you put the audio file with extension .flac
+transcribe_file('filename.flac')
